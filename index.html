@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      width: 100%;
+      height: 100%;
+      background: rgb(31, 31, 54);
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      font-size: 12px;
+    }
+    .main-table{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-collapse: collapse;
+    }
+    .header{
+      position: relative;
+      background: url(/img/bg.png)center/cover;
+      width: 100%;
+      height: 30%;
+    }
+    .logo img{
+      display: block;
+      width: 2%;
+      height: 2%;
+      margin: 20px auto;
+    }
+    .blackfrid img{
+      display: block;
+      width: 15%;
+      height: 15%;
+      margin: 0 auto;
+    }
+    .inner-table{
+      position: relative;
+      padding: 17% 35% 0;
+      margin: 0;
+      text-align: center;
+    }
+    .title{
+      text-transform: capitalize;
+      font-size: 15px;
+      padding: 0;
+      margin: 0;
+      display: block;
+    }
+    .subtitle{
+      display: block;
+    }
+    .button{
+      display: block;
+    }
+    .btn{
+      background-color: rgb(87, 87, 218);
+      border: 0;
+      border-radius: 4px;
+      color: #fff;
+      text-transform: capitalize;
+      line-height: 30px;
+      padding: 0 20px;
+      transition: .2s ease-in-out all;
+    }
+    .btn-green{
+      background-color: rgb(59, 168, 135);
+      border: 0;
+      border-radius: 4px;
+      color: #fff;
+      text-transform: capitalize;
+      line-height: 30px;
+      padding: 0 20px;
+      transition: .2s ease-in-out all;
+    }
+    .main-inner-table{
+      margin: 0 auto;
+    }
+    .footer-table{
+      margin: 0 auto;
+      width: 500px;
+      position: relative;
+      display: block;
+      text-align: center;
+    }
+
+    .footer-table a {
+      color: white;
+    }
+    
+  </style>
+</head>
+<body>
+  <table class="main-table">
+    <!--HEADER-->
+    <thead class="header">
+      <tr class="logo"><td><img src="/img/logo.png" alt=""></td></tr>
+      <tr class="blackfrid"><td><img src="/img/black_friday.png" alt=""></td></tr>
+    </thead>
+    <!--INSIDE-->
+    <tbody>
+      <!--TABLE BFSIH + btn-->
+      <table class="inner-table">
+        <tr>
+          <td class="title"><h1>black friday sale is here!</h1></td>
+        </tr>
+        <tr>
+          <td class="subtitle"><p>We start the Black Friday sale! Apply coupon code BLACK at checkout and save 30%.</p></td>
+        </tr>
+        <tr>
+          <td class="button"><button class="btn">learn more ➔</button></td>
+        </tr>
+        <tr>
+          <td><p>👋 Active until November 28, 11:59 PST</p></td>
+        </tr>
+      </table>
+      <!--Table avec toutes les img txt + btn-->
+      <table class="main-inner-table" width=600>
+        <tr>
+          <td>
+            <!--img+txt+btn-->
+            <table align="center">
+              <tr>
+                <td class="img-news"><img src="/img/1.png" alt="#" width="100"></td>
+                <td valign="top">
+                  <table cellspacing=0 cellpadding=0 width=350>
+                    <tr><td><h2>Startup</h2></td></tr>
+                    <tr><td><p>Create websites online using the Startup Bootstrap 5 builder.</p></td></tr>
+                  </table>
+                </td>
+                <td><button class="btn-green">Get 30% Off</button></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <!--img+txt+btn-->
+            <table>
+              <tr>
+                <td class="img-news"><img src="/img/2.png" alt="#" width="100"></td>
+                <td valign="top">
+                  <table cellspacing=0 cellpadding=0 width=350>
+                    <tr><td><h2>Postcards</h2></td></tr>
+                    <tr><td><p>Create beautiful responsive email newsletters with no-code tools.</p></td></tr>
+                  </table>
+                </td>
+                <td><button class="btn-green">Get 30% Off</button></td>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <!--img+txt+btn-->
+            <table>
+              <tr>
+                <td class="img-news"><img src="/img/3.png" alt="#" width="100"></td>
+                <td valign="top">
+                  <table>
+                    <tr><td><h2>Slides</h2></td></tr>
+                    <tr><td><p>Generate beautiful, animated, static websites in a matter of minutes.</p></td></tr>
+                  </table>
+                </td>
+                <td><button class="btn-green">Get 30% Off</button></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>
+          <!--Footer table-->
+          <table class="footer-table" align="center">
+            <tr>
+              <td><p>Made with ♥︎ by Designmodo Team.</p></td>
+            </tr>
+            <tr>
+              <td><a href=""><p>Manage subscription</p></a></td>
+              <td><p>/</p></td>
+              <td><a href="">Unsubscribe</a></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+</html>
