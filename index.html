@@ -13,7 +13,7 @@
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
       color: white;
-      font-size: 12px;
+      font-size: 11px;
     }
     .main-table{
       position: absolute;
@@ -81,16 +81,18 @@
     .main-inner-table{
       margin: 0 auto;
     }
+    
     .footer-table{
       margin: 0 auto;
       width: 500px;
       position: relative;
-      display: block;
       text-align: center;
+      font-size: 12px;
     }
-
-    .footer-table a {
-      color: white;
+    
+    .footer-table a{
+      color: rgb(124, 124, 124);
+      font-size: 10px;
     }
     
   </style>
@@ -103,7 +105,7 @@
       <tr class="blackfrid"><td><img src="img/black_friday.png" alt=""></td></tr>
     </thead>
     <!--INSIDE-->
-    <tbody>
+    <tbody >
       <!--TABLE BFSIH + btn-->
       <table class="inner-table">
         <tr>
@@ -120,20 +122,28 @@
         </tr>
       </table>
       <!--Table avec toutes les img txt + btn-->
-      <table class="main-inner-table" width=600>
+      <table cellspacing=0 cellpadding=10 class="main-inner-table" width=500 border=0 height="100">
         <tr>
           <td>
             <!--img+txt+btn-->
-            <table align="center">
+            <table cellspacing=0 cellpadding=0 align="center" border="0" width="100%" height="33">
               <tr>
-                <td class="img-news"><img src="img/1.png" alt="#" width="100"></td>
-                <td valign="top">
-                  <table cellspacing=0 cellpadding=0 width=350>
-                    <tr><td><h2>Startup</h2></td></tr>
-                    <tr><td><p>Create websites online using the Startup Bootstrap 5 builder.</p></td></tr>
+                <td class="img-news" align="center" width="25%"><img src="img/1.png" alt="#" width="100%"></td>
+                <td width="50%">
+                  <table cellpadding="0" cellspacing="20" border="0">
+                    <tr>
+                      <td>
+                        <table cellspacing=0 cellpadding="0" border="0">
+                          <tr>
+                            <td><h2>Startup</h2></td>
+                          </tr>
+                          <tr><td><p>Create websites online using the Startup Bootstrap 5 builder.</p></td></tr>
+                        </table>
+                      </td>
+                    </tr>
                   </table>
                 </td>
-                <td><button class="btn-green">Get 30% Off</button></td>
+                <td width="25%" align="center"><button class="btn-green">Get 30% Off</button></td>
               </tr>
             </table>
           </td>
@@ -141,50 +151,64 @@
         <tr>
           <td>
             <!--img+txt+btn-->
-            <table>
+            <table cellspacing=0 cellpadding=0 align="center" border="0" width="100%" height="33">
               <tr>
-                <td class="img-news"><img src="img/2.png" alt="#" width="100"></td>
-                <td valign="top">
-                  <table cellspacing=0 cellpadding=0 width=350>
-                    <tr><td><h2>Postcards</h2></td></tr>
-                    <tr><td><p>Create beautiful responsive email newsletters with no-code tools.</p></td></tr>
+                <td class="img-news" align="center" width="25%"><img src="img/2.png" alt="#" width="100%"></td>
+                <td width="50%">
+                  <table cellpadding="0" cellspacing="20" border="0">
+                    <tr>
+                      <td>
+                        <table cellspacing=0 cellpadding="0" border="0">
+                          <tr>
+                            <td><h2>Postcards</h2></td>
+                          </tr>
+                          <tr><td><p>Create beautiful responsive email newsletters with no-code tools.</p></td></tr>
+                        </table>
+                      </td>
+                    </tr>
                   </table>
                 </td>
-                <td><button class="btn-green">Get 30% Off</button></td>
+                <td width="25%" align="center"><button class="btn-green">Get 30% Off</button></td>
+              </tr>
             </table>
           </td>
         </tr>
         <tr>
           <td>
             <!--img+txt+btn-->
-            <table>
+            <table cellspacing=0 cellpadding=0 align="center" border="0" width="100%" height="33">
               <tr>
-                <td class="img-news"><img src="img/3.png" alt="#" width="100"></td>
-                <td valign="top">
-                  <table>
-                    <tr><td><h2>Slides</h2></td></tr>
-                    <tr><td><p>Generate beautiful, animated, static websites in a matter of minutes.</p></td></tr>
+                <td class="img-news" align="center" width="25%"><img src="img/3.png" alt="#" width="100%"></td>
+                <td width="50%">
+                  <table cellpadding="0" cellspacing="20" border="0">
+                    <tr>
+                      <td>
+                        <table cellspacing=0 cellpadding="0" border="0">
+                          <tr>
+                            <td><h2>Slides</h2></td>
+                          </tr>
+                          <tr><td><p>Generate beautiful, animated, static websites in a matter of minutes.</p></td></tr>
+                        </table>
+                      </td>
+                    </tr>
                   </table>
                 </td>
-                <td><button class="btn-green">Get 30% Off</button></td>
+                <td width="25%" align="center"><button class="btn-green">Get 30% Off</button></td>
               </tr>
             </table>
           </td>
         </tr>
-      </table>
-    </tbody>
-    <tfoot>
-      <tr>
-        <td>
+        <tr>
+          <td>
           <!--Footer table-->
-          <table class="footer-table" align="center">
+          <table cellpadding="0" cellspacing="0" border="0" class="footer-table" align="center">
             <tr>
               <td><p>Made with ♥︎ by Designmodo Team.</p></td>
             </tr>
             <tr>
-              <td><a href=""><p>Manage subscription</p></a></td>
-              <td><p>/</p></td>
-              <td><a href="">Unsubscribe</a></td>
+              <td>
+                <p><a href="">Manage subscription</a> / <a href=""> Unsubscribe</a></p>
+              </td>
             </tr>
           </table>
         </td>
